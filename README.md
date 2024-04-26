@@ -1,0 +1,1 @@
+# cypress-medical-ethic-trust
