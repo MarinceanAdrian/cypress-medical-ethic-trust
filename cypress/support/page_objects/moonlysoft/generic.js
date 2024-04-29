@@ -40,7 +40,7 @@ export default class Generic {
   }
 
   static checkErrorModal() {
-    cy.get(".MuiAlert-root")
+    cy.get(".MuiAlert-root", { timeout: 15000 })
       .should("exist")
       .and("not.include.class", this.tooltipErrorClass);
   }
